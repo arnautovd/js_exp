@@ -1,3 +1,7 @@
+
+
+const {addWord} = require('./newmod');
+
 const func = () => {
     let myBlockOfWords = 'hello world'.split(' ');
     if (myBlockOfWords.length > 1) {
@@ -36,4 +40,6 @@ for (admin of admins) {
         admin.job = l;
     }
 }
-console.log(admins)
+console.log(admins);
+
+console.log(addWord('word again'));
