@@ -43,3 +43,6 @@ for (admin of admins) {
 console.log(admins);
 
 console.log(addWord('word again'));
+
+
+console.log(Math.tanh(120));
